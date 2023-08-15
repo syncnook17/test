@@ -10,3 +10,23 @@ git status สำหรับดูว่าไฟล์เป็นไง
     git commit -m 'test first git'
 
 git log สำหรับดูว่า log ยัไง
+
+
+git reset --hard e0494f7562d6e6d7e5 
+    สำหรับการ reset
+
+
+การแตกกิ่ง 
+    แตกมาจาก master 
+    git branch 
+    git branch --all
+    git branch develop สร้าง
+    git branch --delete develop ลบ
+    
+    ย้ายไปทำงาน branch ใหม่
+        git checkout <branch name, commit id>
+    
+    สร้าง branch ชื่อ test และทำการสลับทำงานมาที่ test นี้
+        git checkout -b test
+    เลือกแค่บางไฟล์จาก branch อื่นเข้ามา merge กับปัจจุบัน
+        git checkout <branch name> <file name>
