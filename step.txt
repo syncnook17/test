@@ -1,0 +1,7 @@
+git init สำหรับเริ่มต้น
+
+
+git status สำหรับดูว่าไฟล์เป็นไง
+
+เก็บไฟล์ไปใน res
+    git add step.txt
