@@ -30,3 +30,10 @@ git reset --hard e0494f7562d6e6d7e5
         git checkout -b test
     เลือกแค่บางไฟล์จาก branch อื่นเข้ามา merge กับปัจจุบัน
         git checkout <branch name> <file name>
+
+
+การรวมกิ่ง 
+    git merge --no-ff
+
+    git dif สำหรับเปรียบเทียบ
+    
