@@ -5,3 +5,8 @@ git status สำหรับดูว่าไฟล์เป็นไง
 
 เก็บไฟล์ไปใน res
     git add step.txt
+    git add . ทุกไฟล์
+
+    git commit -m 'test first git'
+
+git log สำหรับดูว่า log ยัไง
